@@ -1,0 +1,98 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+body {
+  margin-top: 0px;
+  background-color:#afafaf;
+  max-width: 560px; /*center the website on screens that are wider than 560px*/
+  margin: auto;
+}
+h1 {
+    letter-spacing: 2px;
+    text-transform: capitalize;  
+    font-family: 'Inter', serif;
+    font-size: 28px;
+    text-shadow: 2px 2px 2px #aaa;
+    margin-top: 0%;
+  }
+  h2 {
+    text-transform: capitalize;  
+    font-family: 'Inter', serif;
+    font-size: 18px;
+    font-weight: normal;
+    text-shadow: 1px 1px 1px #aaa;
+  }
+  #content {
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 14px;
+    margin-bottom: 10px;
+    
+  }
+  span.director,span.novelist,span.photographer,span.wave  {
+    font-weight:bold; 
+    color: #97390c;
+  }
+  .spons {
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 12px;
+    color: #97390c;
+    text-align: right;
+  }
+
+  .spons a {
+    font-size: 8px;
+    color: #000000;
+  }
+  .spons a:hover {
+    color: #a3a2a2;
+  }
+  
+  .menu a {
+    padding-right: 10px;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 14px;
+    color: #97390c;
+    display: block;
+    }
+
+  .menu a:hover {
+    color: #572006;/*hover the links in the menu makes them darker*/
+  }
+
+  /* unvisited link 
+  .menu a:link {
+    color: #97390C;
+  }*/
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  li {
+    text-transform: capitalize;  
+    font-weight:bold;
+    line-height: 1.5;
+    color: #97390c;
+    float: left;/*https://www.w3schools.com/csS/tryit.asp?filename=trycss_navbar_horizontal_float*/
+  }
+  /*li a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+  }*/
+  footer{
+    height: 50px ;
+    background-color: #97390c;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 12px;
+    color: #aaa;
+    text-align: center;
+    line-height: 1.5;
+    /*border-top: 10px solid #afafaf; Must be the same color than the Background color of the body element not the Text color or use margin-top 10px below*/
+    margin-top: 10px; 
+  }
